@@ -1,8 +1,9 @@
 const langs = ["en", "ja", "jbo"];
+const wordRegex = /^()$/;
 const gismuRegex =
   /^([bcdfghjklmnprstvxz][aeiou][bcdfghjklmnprstvxz][bcdfghjklmnprstvxz][aeiou]|[bcdfghjklmnprstvxz][bcdfghjklmnprstvxz][aeiou][bcdfghjklmnprstvxz][aeiou])$/;
 
-let lang = "en";
+let lang = "fr";
 
 function lget(key) {
   try {
